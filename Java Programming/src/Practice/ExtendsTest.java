@@ -18,6 +18,7 @@ public class ExtendsTest{
 		Child child = new Child();
 		System.out.println("child.parentVar = "+child.parentVar);
 		System.out.println("child.childVar = "+child.childVar);
+		System.out.println("test");
 		child.parentMethod();
 		child.childMethod();
 	}
